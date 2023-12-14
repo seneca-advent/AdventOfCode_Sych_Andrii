@@ -8,8 +8,9 @@ import java.util.Scanner;
 
 public class FileParser {
     private final File filePath;
-    private final static File ROOT = new File("./Source/src");
+    private final static File ROOT = new File("./Tasks/src");
     public FileParser(String filename) {
+
         filePath = new File(ROOT, filename);
     }
 
