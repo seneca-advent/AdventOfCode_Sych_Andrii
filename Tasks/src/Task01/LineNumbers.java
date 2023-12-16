@@ -1,5 +1,9 @@
 package Task01;
 
+import General.Tuple;
+
+import java.util.HashMap;
+
 class LineNumber {
     private int n;
 
